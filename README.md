@@ -1,4 +1,6 @@
-# Digital Coffee - Discord Server Resources
+# Class Selection Bot
+
+### Class Selection Bot
 
 **hello**
 hi
