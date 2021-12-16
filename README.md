@@ -49,7 +49,7 @@ Fill in a draft post of all courses being offered each semester. See [example.tx
 Use your best judgement as to what classes to include. Typically this is all courses required to graduate with the Computer Science or Software Development degree, including the specific math requirements (calculus, statistics, etc.) and physics requirement.   
 
 
-### Post it to `class-selection`
+### Post it to `#class-selection`
 
 Make sure you're logged into the Digital Coffee account, and then post the classes message in `#class-selection`.  
 
@@ -57,7 +57,7 @@ Make sure you're logged into the Digital Coffee account, and then post the class
 
 Each class you have listed will need a specific role for it. In server settings, create new roles for all classes being offered, and delete any roles for classes that aren't being offered next semester. You can re-use roles that are previously there if the same class is offered again, but make sure all members listed under **Manage Members** are removed. All permissions for the role should be turned off. 
 
-## Set Up Carl-bot Reaction Roles
+## Set up Carl-bot reaction roles
 
 Carl-bot is the bot we utilize for allowing a message reaction to assign the user a role. 
 
