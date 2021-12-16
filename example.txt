@@ -1,0 +1,62 @@
+**Intro Courses**
+
+:one: - CSC 125 | Intro to C++ 
+:two: - CSC 130 | The World of Computer Science
+:three: - CSC 131 | Computational Thinking (Saquer)
+:four: - CSC 131 | Computational Thinking (???)
+:five: - CSC 232 | Data Structures 
+:six: - CSC 244 | Computer Architecture 
+** **
+
+**Mid-Level Courses**
+:one: - CSC 303 | Intro Video Game Development
+:two: - CSC 325 | Algorithms and Advanced Data Structures
+:three: - CSC 333 | Languages and Machines
+:four: - CSC 335 | Database System Concepts 
+:five: - CSC 360 | Operating Systems
+:six: - CSC 365 | Internet Programming 
+:seven: - CSC 388 | Intro to Secure Computing
+:eight: - CSC 399 | Cooperative Education
+** **
+
+**Upper-Level Courses**
+
+:one: - CSC 450 | Intro to Software Engineering
+:two: - CSC 482 | Seminar in Computer Science
+:three: - CSC 515 | Advanced Internet Programming
+:four: - CSC 525 | Computer Graphics
+:five: - CSC 540 | Intro to AI
+:six: - CSC 545 | Computer Speech, Music and Images
+:seven: - CSC 567 | Mobile Computing Applications
+:eight: - CSC 596 | Special Readings
+** **
+
+
+**Graduate Courses**
+
+:one: - CSC 611 | Algorithms and Advanced Data Structures
+:two: - CSC 612 | Advanced Database System Concepts
+:three: - CSC 630 | Intro to Data Science
+:four: - CSC 635 | Data Mining
+:five: - CSC 701 | Seminar I
+:six: - CSC 702 | Seminar II
+:four: - CSC 736 | Machine Learning
+:five: - CSC 745 | Advanced Multimedia Programming
+:six: - CSC 790 | Wireless Communications
+:seven: - CSC 790 | Advanced Topics in Algorithms
+:eight: - CSC 790 | Computational Intelligence
+:nine: - CSC 790 | Advanced Database
+:ten: - CSC 799 | Thesis
+** **
+
+
+**Mathematics Courses**
+
+:one: - MTH 261 | Analytical Geometry and Calculus I
+:two: - MTH 280 | Analytical Geometry and Calculus II
+** **
+
+
+**Physics Intro Course**
+:one: - PHY 123 | Intro to Physics I
+** **
