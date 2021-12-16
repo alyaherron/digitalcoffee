@@ -9,6 +9,7 @@
 ** **
 
 **Mid-Level Courses**
+
 :one: - CSC 303 | Intro Video Game Development
 :two: - CSC 325 | Algorithms and Advanced Data Structures
 :three: - CSC 333 | Languages and Machines
