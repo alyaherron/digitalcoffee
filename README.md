@@ -31,7 +31,7 @@ Even if the course is being offered again next semester, it's necessary to delet
 Delete all messages that are posted in `#class-selection`. This also completes the step of removing everyone's user roles that were assigned to them for each class (since the message ID was linked to the reaction role bot, but more on that later).
 
 
-## Create the courses post
+## Create the new class list and roles
 
 ### Login to the Digital Coffee account
 
@@ -53,7 +53,18 @@ Use your best judgement as to what classes to include. Typically this is all cou
 
 Make sure you're logged into the Digital Coffee account, and then post the classes message in `#class-selection`.  
 
+### Edit roles for all the classes
+
+Each class you have listed will need a specific role for it. In server settings, create new roles for all classes being offered, and delete any roles for classes that aren't being offered next semester. You can re-use roles that are previously there if the same class is offered again, but make sure all members listed under **Manage Members** are removed. All permissions for the role should be turned off. 
 
 ## Set Up Carl-bot Reaction Roles
 
 Carl-bot is the bot we utilize for allowing a message reaction to assign the user a role. 
+
+### Login to Carl-bot
+
+Head to [Carl-bot](https://carl.gg/) and login with your regular Discord account. You don't have to be logged into Digital Coffee's account for this part.
+
+### Add reaction roles
+
+Under your name at the top right, click **Servers**, and then click **Digital Coffee**. Under **Settings** on the left hand side, click **Reaction roles**.
