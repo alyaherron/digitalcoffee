@@ -28,7 +28,7 @@ Even if the course is being offered again next semester, it's necessary to delet
 
 ### Delete messages in `#class-selection`
 
-Delete all messages that are posted in `#class-selection`. This also completes the step of removing everyone's user roles that were assigned to them for each class (since the message ID was linked to the reaction role bot, but more on that later).
+Delete all messages that are posted in `#class-selection`. 
 
 
 ## Create the new class list and roles
