@@ -8,6 +8,7 @@
 :six: - CSC 244 | Computer Architecture 
 ** **
 
+
 **Mid-Level Courses**
 
 :one: - CSC 303 | Intro Video Game Development
@@ -19,6 +20,7 @@
 :seven: - CSC 388 | Intro to Secure Computing
 :eight: - CSC 399 | Cooperative Education
 ** **
+
 
 **Upper-Level Courses**
 
