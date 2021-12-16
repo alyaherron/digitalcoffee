@@ -26,6 +26,10 @@ Change the `Flavors - [semester][year] Courses` category name to the new semeste
 
 Even if the course is being offered again next semester, it's necessary to delete it so that the messages are purged. 
 
+### Delete messages in `#class-selection`
+
+Delete all messages that are posted in `#class-selection`. This also completes the step of removing everyone's user roles that were assigned to them for each class (since the message ID was linked to the reaction role bot, but more on that later).
+
 
 ## Create the courses post
 
