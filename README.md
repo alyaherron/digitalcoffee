@@ -1,2 +1,4 @@
-# Digital Coffee
-Digital Coffee - Discord Server Resources
+# Digital Coffee - Discord Server Resources
+
+**hello**
+hi
