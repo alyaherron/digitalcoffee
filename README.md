@@ -1,9 +1,9 @@
 # Class Selection Bot
 
-TLDR;
-- x
-- y
-- z
+### TLDR;
+- **Clear out current course channels and/or roles**
+- **Generate new course channels and/or roles**
+- **Modify the Carl-bot reaction roles**
 
 
 ## Turn off view permissions for `#class-selection`
@@ -11,6 +11,8 @@ TLDR;
 Before doing anything, we need to prevent people from getting spammed with notifications. 
 
 Head to the settings of `#class-selection` and click the **X** next to **View Channel** for the **@everyone** role. 
+
+![image](https://user-images.githubusercontent.com/59751268/146475587-3baff22c-9e4d-4b16-a012-4b7b43201464.png)
 
 Keep the **ADMIN** role turned on, but give a heads up to `#admin-only` to ignore any notifications they get from the channel. 
 
@@ -20,20 +22,25 @@ Keep the **ADMIN** role turned on, but give a heads up to `#admin-only` to ignor
 
 ### Edit the Flavors category
 
-Change the `Flavors - [semester][year] Courses` category name to the new semester & year.
+![image](https://user-images.githubusercontent.com/59751268/146481338-97d67b90-bd08-4744-9dc2-df79d05981ab.png)
+
+
+Change the **Flavors** category name to the new semester & year.
 
 ### Delete all the current course channels
 
-Even if the course is being offered again next semester, it's necessary to delete it so that the messages are purged. 
+Even if some courses are being offered again next semester, it's necessary to delete their existing channels so that all previous messages are purged. 
 
-### Delete all class messages in `#class-selection`
+### Delete all messages for classes in `#class-selection`
 
-Delete all messages that are posted in `#class-selection` EXCEPT the one at the very top for selecting your grade classification. 
+Delete all messages that are posted in `#class-selection` _EXCEPT_ the one at the very top for selecting your grade classification.  
+
+![image](https://user-images.githubusercontent.com/59751268/146481596-d62cdde2-8413-43be-b9a6-3b6a3c48af82.png)
 
 
-## Create the new class list, channels and roles
+## Create the new class list, channels, and roles
 
-### Login to the Digital Coffee account
+### Login to the Digital Coffee account on Discord
 
 You'll want to create the post in `#class-selection` using the Digital Coffee user account on Discord.   
 
@@ -95,11 +102,22 @@ Under **Mode**, select **Use ID**, and paste in the message ID. Select the `#cla
 
 ![image](https://user-images.githubusercontent.com/59751268/146459585-8a0e48ac-2ffd-476c-b47e-c4d09f8c520d.png)
 
-For each class you have listed in that particular message, add the corresponding emoji number, along with the class role.
+For each class listed in that particular message (the message you copied the ID from), add the corresponding emoji number, and add the corresponding class role.
 
 ![image](https://user-images.githubusercontent.com/59751268/146460251-15b78094-3ed5-4cb0-bfae-c48d79e10d05.png)
 
 Repeat this process for each message in the channel.
 
 ![image](https://user-images.githubusercontent.com/59751268/146460419-c8471275-b1da-478b-8623-a5243b61f39d.png)
+
+
+
+## Turn view permissions back on for `#class-selection`
+
+![image](https://user-images.githubusercontent.com/59751268/146476561-c960481f-d024-4874-9de4-7a15ea890968.png)
+
+
+# And you're done!
+
+### Make sure to post a message to `#announcements` to let everyone know they can select their new classes for next semester.
 
