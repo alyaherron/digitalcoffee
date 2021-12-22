@@ -51,14 +51,14 @@ You'll want to create the post in `#class-selection` using the Digital Coffee us
 If you don't know the username & password, ask the previous admin for it.
 
 
-### Draft up the message that will be posted in `#class-selection`
+### Draft up the messages that will be posted in `#class-selection`
 
 Find the [full list of courses](https://prodssb.missouristate.edu/prod/bwckschd.p_disp_dyn_sched) being offered for the next semester, and use [example.txt](https://github.com/alyaherron/digitalcoffee/blob/main/example.txt) to create a draft of the class selection messages for `#class-selection`. 
 
-Use your best judgement as to what classes to include. Typically we include all courses required to graduate with the Computer Science or Software Development degree, including the specific math requirements (calculus, statistics, etc.) and physics requirement.
+Use your best judgement as to what classes to include. Typically we include all CSC courses required to graduate with the Computer Science and Software Development degrees, including the specific math requirements (calculus, statistics, etc.) and physics requirement.
 
 
-### Post it to `#class-selection`
+### Post the messages to `#class-selection`
 
 ![image](https://user-images.githubusercontent.com/59751268/147021940-520b6117-83cd-462e-9b39-96f8abe7e476.png)
 
@@ -80,7 +80,7 @@ Each channel should allow channel access for Admin, Tutor, Retired Staff, and th
 
 ![image](https://user-images.githubusercontent.com/59751268/146460750-d62d08e2-dd57-4bd5-a86a-0ff739786e38.png)
 
-To make it easy on you, once you make the first channel, right click on it and select **Clone Channel**. All you have to do is rename it, remove the existing class role, and add the correct class role. 
+To make it easy on you for creating each new channel, once you make the first channel, right click on it and select **Clone Channel**. All you have to do is rename it, remove the existing class role, and add the correct class role. 
 
 
 ## Set up Carl-bot reaction roles
