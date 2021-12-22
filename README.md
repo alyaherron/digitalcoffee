@@ -25,46 +25,54 @@ Keep the **ADMIN** role turned on, but give a heads up to `#admin-only` to ignor
 ![image](https://user-images.githubusercontent.com/59751268/146481338-97d67b90-bd08-4744-9dc2-df79d05981ab.png)
 
 
-Change the **Flavors** category name to the new semester & year.
+Change the **Flavors** category name to the new semester & year. 
+
+Right click on the category name and select **Edit Category**.
 
 ### Delete all the current course channels
 
-Even if some courses are being offered again next semester, it's necessary to delete their existing channels so that all previous messages are purged. 
+Even if some courses are being offered again next semester, it's necessary to delete each and every class channel so that all previous messages are purged. 
+
+Right click on each channel name and select **Delete Channel**.
 
 ### Delete all messages for classes in `#class-selection`
 
-Delete all messages that are posted in `#class-selection` _EXCEPT_ the one at the very top for selecting your grade classification.  
+Delete all messages that are posted in `#class-selection` EXCEPT the one at the very top for selecting your grade classification.
 
 ![image](https://user-images.githubusercontent.com/59751268/146481596-d62cdde2-8413-43be-b9a6-3b6a3c48af82.png)
 
 
 ## Create the new class list, channels, and roles
 
-### Login to the Digital Coffee account on Discord
+### Log in to the Digital Coffee account on Discord
 
-You'll want to create the post in `#class-selection` using the Digital Coffee user account on Discord.   
+You'll want to create the post in `#class-selection` using the Digital Coffee user account on Discord. You'll want to use this account for (1) posting the class selection messages in `#class-selection`, and (2) using Carl-bot to create the reaction roles.   
 
 If you don't know the username & password, ask the previous admin for it.
 
 
 ### Draft up the message that will be posted in `#class-selection`
 
-Find the [full list of courses](https://prodssb.missouristate.edu/prod/bwckschd.p_disp_dyn_sched) being offered for the next semester.
+Find the [full list of courses](https://prodssb.missouristate.edu/prod/bwckschd.p_disp_dyn_sched) being offered for the next semester, and use [example.txt](https://github.com/alyaherron/digitalcoffee/blob/main/example.txt) to create a draft of the class selection messages for `#class-selection`. 
 
-Fill in a draft post of all courses being offered each semester. See [example.txt](https://github.com/alyaherron/digitalcoffee/blob/main/example.txt) for the formatting to use. 
-
-Use your best judgement as to what classes to include. Typically this is all courses required to graduate with the Computer Science or Software Development degree, including the specific math requirements (calculus, statistics, etc.) and physics requirement.   
+Use your best judgement as to what classes to include. Typically we include all courses required to graduate with the Computer Science or Software Development degree, including the specific math requirements (calculus, statistics, etc.) and physics requirement.
 
 
 ### Post it to `#class-selection`
 
+![image](https://user-images.githubusercontent.com/59751268/147021940-520b6117-83cd-462e-9b39-96f8abe7e476.png)
+
 Make sure you're logged into the Digital Coffee account, and then post the class messages in `#class-selection`. This needs to be broken up into multiple messages, separated by section (Intro Courses, Mid-Level Courses, etc.). 
 
-Use [divider.gif](https://github.com/alyaherron/digitalcoffee/blob/main/divider.gif) in between each message.
+Post [divider.gif](https://github.com/alyaherron/digitalcoffee/blob/main/divider.gif) in between each message.
 
 ### Edit roles for all the classes
 
-Each class you have listed will need a specific role for it. In server settings, create new roles for all classes being offered, and delete any roles for classes that aren't being offered next semester. You can re-use roles that are previously there if the same class is offered again, but make sure all members listed under **Manage Members** are removed. All permissions for the role should be turned off. 
+Each class you have listed will need a specific role for it. In server settings, create new roles for all classes being offered, and delete any roles for classes that aren't being offered next semester. 
+
+You can re-use roles that are previously there if the same class is offered again, but make sure all members listed under **Manage Members** are removed. 
+
+All **Permissions** for the role should be defaulted to off. 
 
 ### Create new channels for each class
 
@@ -72,7 +80,7 @@ Each channel should allow channel access for Admin, Tutor, Retired Staff, and th
 
 ![image](https://user-images.githubusercontent.com/59751268/146460750-d62d08e2-dd57-4bd5-a86a-0ff739786e38.png)
 
-To make it easy on you, once you make the first channel, right click on it and select **Clone Channel**. All you have to do is rename it and update the permissions for the correct class role to view it. 
+To make it easy on you, once you make the first channel, right click on it and select **Clone Channel**. All you have to do is rename it, remove the existing class role, and add the correct class role. 
 
 
 ## Set up Carl-bot reaction roles
@@ -81,13 +89,13 @@ Carl-bot is the bot we utilize for allowing a message reaction to assign the use
 
 ### Login to Carl-bot
 
-Head to [Carl-bot](https://carl.gg/) and login with your regular Discord account. You don't have to be logged into Digital Coffee's account for this part.
+Head to [Carl-bot](https://carl.gg/) and log in with the Digital Coffee user account.
 
 ### Remove old reaction roles
 
 Under your name at the top right, click **Servers**, and then click **Digital Coffee**. Under **Settings** on the left hand side, click **Reaction roles**.
 
-Click edit & then delete for each one EXCEPT the one at the very top for grade classification reactions.
+Click **edit** and then **delete** for each one EXCEPT the one at the very top for grade classification reactions.
 
 ### Add new reactions for each message
 
@@ -96,7 +104,7 @@ Go to the class messages in `#class-selection`. Right click on the message for i
 ![image](https://user-images.githubusercontent.com/59751268/146459364-919a5698-2e2e-48d8-a8c3-567533cf7dbb.png)
 
 
-Go back to Carl-bot, click **Create new reaction role**. 
+Go back to Carl-bot, and click **Create new reaction role**. 
 
 Under **Mode**, select **Use ID**, and paste in the message ID. Select the `#class-selection` channel from the drop down.
 
