@@ -37,7 +37,7 @@ Right click on each channel name and select **Delete Channel**.
 
 ### Delete all messages for classes in `#class-selection`
 
-Delete all messages that are posted in `#class-selection` EXCEPT the one at the very top for selecting your grade classification.
+Delete all messages that are posted in `#class-selection` **EXCEPT** the one at the very top for selecting your grade classification.
 
 ![image](https://user-images.githubusercontent.com/59751268/146481596-d62cdde2-8413-43be-b9a6-3b6a3c48af82.png)
 
