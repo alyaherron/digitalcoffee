@@ -1,6 +1,6 @@
 # Class Selection Bot
 
-### TLDR;
+### TL;DR
 - **Clear out current course channels and/or roles**
 - **Generate new course channels and/or roles**
 - **Modify the Carl-bot reaction roles**
